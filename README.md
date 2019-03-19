@@ -1,6 +1,6 @@
 ## What is lxml?
 The lxml XML toolkit is a Pythonic binding for the C libraries libxml2 and libxslt.
-It is unique in that it combines the speed and XML feature completeness of these libraries with the simplicity of a native Python API, mostly compatible but superior to the well-known ElementTree API.The latest release works with all CPython versions from 2.6 to 3.6.
+It is unique in that it combines the speed and XML feature completeness of these libraries with the simplicity of a native Python API, mostly compatible but superior to the well-known ElementTree API.The latest release works with all CPython versions from 2.7 to 3.7.
 
 For more information: http://lxml.de/
 
