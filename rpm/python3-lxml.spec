@@ -1,7 +1,7 @@
 Name:       python3-lxml
 Summary:    lxml package for Python3
-Version:    4.2
-Release:    1
+Version:    4.3
+Release:    2
 Group:      System
 License:    LICENSE
 Vendor:     Jolla
@@ -28,8 +28,8 @@ The lxml XML toolkit is a Pythonic binding for the C libraries libxml2 and libxs
 %install
 rm -rf %{buildroot}
 # >> install pre
-mkdir -p %{buildroot}/usr/lib/python3.4/site-packages/lxml/
-cp -rf src/lxml/* %{buildroot}/usr/lib/python3.4/site-packages/lxml/
+mkdir -p %{buildroot}/usr/lib/python3.7/site-packages/lxml/
+cp -rf src/lxml/* %{buildroot}/usr/lib/python3.7/site-packages/lxml/
 # << install pre
 
 # >> install post
@@ -37,8 +37,8 @@ cp -rf src/lxml/* %{buildroot}/usr/lib/python3.4/site-packages/lxml/
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/python3.4/site-packages/lxml/*
-/usr/lib/python3.4/site-packages/lxml/html/*
-/usr/lib/python3.4/site-packages/lxml/includes/*
-/usr/lib/python3.4/site-packages/lxml/isoschematron/*
-/usr/lib/python3.4/site-packages/lxml/isoschematron/resources/*
+/usr/lib/python3.7/site-packages/lxml/*
+/usr/lib/python3.7/site-packages/lxml/html/*
+/usr/lib/python3.7/site-packages/lxml/includes/*
+/usr/lib/python3.7/site-packages/lxml/isoschematron/*
+/usr/lib/python3.7/site-packages/lxml/isoschematron/resources/*

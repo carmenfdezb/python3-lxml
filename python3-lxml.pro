@@ -30,12 +30,13 @@ CONFIG += sailfishapp_i18n
 TRANSLATIONS += 
 
 DISTFILES += \
-    src/lxml/html/clean.cpython-34m.so \
-    src/lxml/html/diff.cpython-34m.so \
-    src/lxml/_elementpath.cpython-34m.so \
-    src/lxml/builder.cpython-34m.so \
-    src/lxml/etree.cpython-34m.so \
-    src/lxml/objectify.cpython-34m.so \
+    src/lxml/html/clean.cpython-37m-i386-linux-gnu.so \
+    src/lxml/html/diff.cpython-37m-i386-linux-gnu.so \
+    src/lxml/_elementpath.cpython-37m-i386-linux-gnu.so \
+    src/lxml/builder.cpython-37m-i386-linux-gnu.so \
+    src/lxml/etree.cpython-37m-i386-linux-gnu.so \
+    src/lxml/objectify.cpython-37m-i386-linux-gnu.so \
+    src/lxml/sax.cpython-37m-i386-linux-gnu.so \
     src/lxml/isoschematron/resources/rng/iso-schematron.rng \
     src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_abstract_expand.xsl \
     src/lxml/isoschematron/resources/xsl/iso-schematron-xslt1/iso_dsdl_include.xsl \
